@@ -15,6 +15,7 @@
 		AC3BA81720724CB6007EC718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3BA81620724CB6007EC718 /* main.m */; };
 		AC3BA82120724CB6007EC718 /* Exemplo_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3BA82020724CB6007EC718 /* Exemplo_ObjCTests.m */; };
 		AC3BA82C20724CB6007EC718 /* Exemplo_ObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3BA82B20724CB6007EC718 /* Exemplo_ObjCUITests.m */; };
+		AC3BA83B2072508E007EC718 /* Pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3BA83A2072508E007EC718 /* Pessoa.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AC3BA82720724CB6007EC718 /* Exemplo_ObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Exemplo_ObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3BA82B20724CB6007EC718 /* Exemplo_ObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exemplo_ObjCUITests.m; sourceTree = "<group>"; };
 		AC3BA82D20724CB6007EC718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3BA8392072508E007EC718 /* Pessoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pessoa.h; sourceTree = "<group>"; };
+		AC3BA83A2072508E007EC718 /* Pessoa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pessoa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				AC3BA80A20724CB6007EC718 /* ViewController.h */,
 				AC3BA80B20724CB6007EC718 /* ViewController.m */,
 				AC3BA80D20724CB6007EC718 /* Main.storyboard */,
+				AC3BA8392072508E007EC718 /* Pessoa.h */,
+				AC3BA83A2072508E007EC718 /* Pessoa.m */,
 				AC3BA81020724CB6007EC718 /* Assets.xcassets */,
 				AC3BA81220724CB6007EC718 /* LaunchScreen.storyboard */,
 				AC3BA81520724CB6007EC718 /* Info.plist */,
@@ -267,6 +272,7 @@
 			files = (
 				AC3BA80C20724CB6007EC718 /* ViewController.m in Sources */,
 				AC3BA81720724CB6007EC718 /* main.m in Sources */,
+				AC3BA83B2072508E007EC718 /* Pessoa.m in Sources */,
 				AC3BA80920724CB6007EC718 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

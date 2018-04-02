@@ -10,6 +10,15 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *txtNome;
+
+@property (weak, nonatomic) IBOutlet UITextField *txtPeso;
+
+@property (weak, nonatomic) IBOutlet UITextField *txtAltura;
+
+@property (weak, nonatomic) IBOutlet UITextField *txtIMC;
+
+- (IBAction)calcular:(id)sender;
 
 @end
 
