@@ -29,10 +29,8 @@
 
 - (IBAction)calcular:(id)sender {
     Pessoa *p = [[Pessoa alloc]init];
-    p.peso = self.txtPeso.text.floatValue;
-    [p setPeso:[[[self txtPeso]text]floatValue]];
-    p.peso = _txtPeso.text.floatValue;
     
+    p.peso = self.txtPeso.text.floatValue;
     p.altura = self.txtAltura.text.floatValue;
     p.nome = self.txtNome.text;
     
